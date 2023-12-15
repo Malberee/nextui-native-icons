@@ -1,7 +1,7 @@
 import * as React from "react";
 import Svg, { Path } from "react-native-svg";
 import type { SvgProps } from "react-native-svg";
-const SvgSend = (props: SvgProps) => (
+const SvgRotateLeft = (props: SvgProps) => (
   <Svg
     viewBox="0 0 24 24"
     width={24}
@@ -13,10 +13,9 @@ const SvgSend = (props: SvgProps) => (
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M3.5 22h17M5 3.5l14 14M5 13.77V3.5h10.27"
+      d="M9.11 5.08c.87-.26 1.83-.43 2.89-.43 4.79 0 8.67 3.88 8.67 8.67s-3.88 8.67-8.67 8.67-8.67-3.88-8.67-8.67c0-1.78.54-3.44 1.46-4.82M7.87 5.32 10.76 2M7.87 5.32l3.37 2.46"
     />
   </Svg>
 );
-export default SvgSend;
+export default SvgRotateLeft;

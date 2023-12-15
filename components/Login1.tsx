@@ -1,7 +1,7 @@
 import * as React from "react";
 import Svg, { Path } from "react-native-svg";
 import type { SvgProps } from "react-native-svg";
-const SvgSend = (props: SvgProps) => (
+const SvgLogin1 = (props: SvgProps) => (
   <Svg
     viewBox="0 0 24 24"
     width={24}
@@ -15,8 +15,16 @@ const SvgSend = (props: SvgProps) => (
       strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M3.5 22h17M5 3.5l14 14M5 13.77V3.5h10.27"
+      d="m11.68 14.62 2.56-2.56-2.56-2.56M4 12.06h10.17"
+    />
+    <Path
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit={10}
+      strokeWidth={1.5}
+      d="M12 4c4.42 0 8 3 8 8s-3.58 8-8 8"
     />
   </Svg>
 );
-export default SvgSend;
+export default SvgLogin1;

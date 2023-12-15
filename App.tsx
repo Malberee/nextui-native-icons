@@ -1,12 +1,12 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import {DeviceMessage} from './components'
+import {ArrangeCircle} from './components'
 
 export default function App() {
 
   return (
     <View style={styles.container}>
-        <DeviceMessage color="black" width={100} height={100} />
+        <ArrangeCircle color="black" width={100} height={100} />
     </View>
   );
 }
