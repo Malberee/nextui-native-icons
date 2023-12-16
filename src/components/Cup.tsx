@@ -1,14 +1,8 @@
-import * as React from "react";
-import Svg, { Path } from "react-native-svg";
-import type { SvgProps } from "react-native-svg";
+import * as React from 'react';
+import Svg, { Path } from 'react-native-svg';
+import type { SvgProps } from 'react-native-svg';
 const SvgCup = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" width={24} height={24} fill="none" {...props}>
     <Path
       fill="currentColor"
       d="M11.25 18.25H9c-1.1 0-2 .9-2 2v.25H6c-.41 0-.75.34-.75.75s.34.75.75.75h12c.41 0 .75-.34.75-.75s-.34-.75-.75-.75h-1v-.25c0-1.1-.9-2-2-2h-2.25v-2.29c-.25.03-.5.04-.75.04s-.5-.01-.75-.04z"

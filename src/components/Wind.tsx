@@ -1,14 +1,8 @@
-import * as React from "react";
-import Svg, { Path } from "react-native-svg";
-import type { SvgProps } from "react-native-svg";
+import * as React from 'react';
+import Svg, { Path } from 'react-native-svg';
+import type { SvgProps } from 'react-native-svg';
 const SvgWind = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" width={24} height={24} fill="none" {...props}>
     <Path
       fill="currentColor"
       d="M18.5 22.75a4.26 4.26 0 0 1-4.25-4.25V18c0-.41.34-.75.75-.75s.75.34.75.75v.5c0 1.52 1.23 2.75 2.75 2.75s2.75-1.23 2.75-2.75-1.23-2.75-2.75-2.75H2c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h16.5a4.26 4.26 0 0 1 4.25 4.25 4.26 4.26 0 0 1-4.25 4.25M18.5 12.75H2c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h16.5c1.52 0 2.75-1.23 2.75-2.75s-1.23-2.75-2.75-2.75-2.75 1.23-2.75 2.75V9c0 .41-.34.75-.75.75s-.75-.34-.75-.75v-.5a4.26 4.26 0 0 1 4.25-4.25 4.26 4.26 0 0 1 4.25 4.25 4.26 4.26 0 0 1-4.25 4.25"

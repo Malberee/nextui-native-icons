@@ -1,14 +1,8 @@
-import * as React from "react";
-import Svg, { Path } from "react-native-svg";
-import type { SvgProps } from "react-native-svg";
+import * as React from 'react';
+import Svg, { Path } from 'react-native-svg';
+import type { SvgProps } from 'react-native-svg';
 const SvgCloudNotif = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" width={24} height={24} fill="none" {...props}>
     <Path
       fill="currentColor"
       d="M21.27 8.76c0 1.02-.47 1.94-1.23 2.54a3.2 3.2 0 0 1-2.03.72c-1.79 0-3.25-1.46-3.25-3.25 0-.89.36-1.7.96-2.29v-.01c.59-.59 1.4-.96 2.29-.96 1.8 0 3.26 1.46 3.26 3.25"

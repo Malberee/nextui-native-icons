@@ -1,14 +1,8 @@
-import * as React from "react";
-import Svg, { Path } from "react-native-svg";
-import type { SvgProps } from "react-native-svg";
+import * as React from 'react';
+import Svg, { Path } from 'react-native-svg';
+import type { SvgProps } from 'react-native-svg';
 const SvgFilterRemove = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" width={24} height={24} fill="none" {...props}>
     <Path
       fill="currentColor"
       d="M16.88 10c-2.62 0-4.75 2.13-4.75 4.75 0 .89.25 1.73.69 2.45.82 1.38 2.33 2.3 4.06 2.3 1.73 0 3.24-.93 4.06-2.3.44-.71.69-1.56.69-2.45 0-2.62-2.12-4.75-4.75-4.75m1.8 6.52c-.15.15-.34.22-.53.22s-.38-.07-.53-.22l-.72-.72-.75.75c-.15.15-.34.22-.53.22s-.38-.07-.53-.22a.754.754 0 0 1 0-1.06l.75-.75-.72-.73a.754.754 0 0 1 0-1.06c.29-.29.77-.29 1.06 0l.72.72.7-.7c.29-.29.77-.29 1.06 0 .29.29.29.77 0 1.06l-.7.7.72.73c.3.29.3.77 0 1.06"

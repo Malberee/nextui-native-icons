@@ -1,14 +1,8 @@
-import * as React from "react";
-import Svg, { Path } from "react-native-svg";
-import type { SvgProps } from "react-native-svg";
+import * as React from 'react';
+import Svg, { Path } from 'react-native-svg';
+import type { SvgProps } from 'react-native-svg';
 const SvgMessages2 = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" width={24} height={24} fill="none" {...props}>
     <Path
       fill="currentColor"
       d="m18.47 16.83.39 3.16c.1.83-.79 1.41-1.5.98l-3.46-2.06c-.24-.14-.3-.44-.17-.68.5-.92.77-1.96.77-3 0-3.66-3.14-6.64-7-6.64-.79 0-1.56.12-2.28.36a.505.505 0 0 1-.64-.6C5.49 4.71 8.99 2 13.17 2 18.05 2 22 5.69 22 10.24c0 2.7-1.39 5.09-3.53 6.59"

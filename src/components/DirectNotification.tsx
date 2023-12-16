@@ -1,14 +1,8 @@
-import * as React from "react";
-import Svg, { Path } from "react-native-svg";
-import type { SvgProps } from "react-native-svg";
+import * as React from 'react';
+import Svg, { Path } from 'react-native-svg';
+import type { SvgProps } from 'react-native-svg';
 const SvgDirectNotification = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" width={24} height={24} fill="none" {...props}>
     <Path
       fill="currentColor"
       d="M19 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6M20.34 12.72h-3.31c-.93 0-1.76.52-2.18 1.34l-.8 1.58c-.19.38-.57.61-.99.61H9.95c-.29 0-.72-.06-.99-.62l-.79-1.57a2.432 2.432 0 0 0-2.18-1.35H2.66c-.36.01-.66.31-.66.67v3.09C2 19.94 4.07 22 7.53 22h7.96c3.26 0 5.27-1.79 5.51-4.96v-3.66c0-.36-.3-.66-.66-.66"

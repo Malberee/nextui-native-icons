@@ -1,14 +1,8 @@
-import * as React from "react";
-import Svg, { Path } from "react-native-svg";
-import type { SvgProps } from "react-native-svg";
+import * as React from 'react';
+import Svg, { Path } from 'react-native-svg';
+import type { SvgProps } from 'react-native-svg';
 const SvgMenuBoard = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" width={24} height={24} fill="none" {...props}>
     <Path
       fill="currentColor"
       d="m20.9 9.85.59 9.89c.02.27-.11.45-.18.53-.08.09-.25.23-.53.23h-2.73l2.16-10.65zM22 6l-.01.02c.02.24 0 .49-.06.74l-7.37 13.53A2.228 2.228 0 0 1 12.38 22h8.4a2.21 2.21 0 0 0 2.21-2.38zM11.45 2.24c.1-.4-.15-.81-.55-.91-.4-.09-.81.15-.91.55l-.5 2.07h1.54zM18.05 2.21c.09-.41-.17-.8-.58-.89a.75.75 0 0 0-.89.58l-.45 2.07h1.54z"

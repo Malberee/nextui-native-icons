@@ -1,14 +1,8 @@
-import * as React from "react";
-import Svg, { Path } from "react-native-svg";
-import type { SvgProps } from "react-native-svg";
+import * as React from 'react';
+import Svg, { Path } from 'react-native-svg';
+import type { SvgProps } from 'react-native-svg';
 const SvgFilterSearch = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" width={24} height={24} fill="none" {...props}>
     <Path
       fill="currentColor"
       d="m20.72 18.24-.94-.94c.49-.74.78-1.63.78-2.59 0-2.6-2.11-4.71-4.71-4.71s-4.71 2.11-4.71 4.71 2.11 4.71 4.71 4.71c.96 0 1.84-.29 2.59-.78l.94.94c.19.19.43.28.68.28.25 0 .49-.09.68-.28.35-.36.35-.96-.02-1.34"

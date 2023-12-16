@@ -1,14 +1,8 @@
-import * as React from "react";
-import Svg, { Path } from "react-native-svg";
-import type { SvgProps } from "react-native-svg";
+import * as React from 'react';
+import Svg, { Path } from 'react-native-svg';
+import type { SvgProps } from 'react-native-svg';
 const SvgCake = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" width={24} height={24} fill="none" {...props}>
     <Path
       fill="currentColor"
       d="M20.89 13v1h-.87c-.74 0-1.34.6-1.34 1.35v.3a1.344 1.344 0 1 1-2.69 0v-.3c0-.75-.61-1.35-1.35-1.35-.74 0-1.34.6-1.34 1.35v.3a1.35 1.35 0 0 1-2.7 0v-.3c0-.75-.6-1.35-1.34-1.35-.74 0-1.35.6-1.35 1.35v.3a1.344 1.344 0 1 1-2.69 0v-.32c0-.74-.59-1.34-1.32-1.35h-.79V13c0-1.38 1.04-2.55 2.45-2.89.28-.07.57-.11.88-.11h11.12c.31 0 .6.04.88.11 1.41.34 2.45 1.51 2.45 2.89M18.44 7.17v1.41c-.29-.06-.58-.08-.88-.08H6.44c-.3 0-.59.03-.88.09V7.17C5.56 5.97 6.64 5 7.98 5h8.04c1.34 0 2.42.97 2.42 2.17"

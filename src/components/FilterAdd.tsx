@@ -1,14 +1,8 @@
-import * as React from "react";
-import Svg, { Path } from "react-native-svg";
-import type { SvgProps } from "react-native-svg";
+import * as React from 'react';
+import Svg, { Path } from 'react-native-svg';
+import type { SvgProps } from 'react-native-svg';
 const SvgFilterAdd = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" width={24} height={24} fill="none" {...props}>
     <Path
       fill="currentColor"
       d="M16.88 10c-2.62 0-4.75 2.13-4.75 4.75 0 .89.25 1.73.69 2.45.82 1.38 2.33 2.3 4.06 2.3 1.73 0 3.24-.93 4.06-2.3.44-.71.69-1.56.69-2.45 0-2.62-2.12-4.75-4.75-4.75m1.78 5.48h-1.03v1.07c0 .41-.34.75-.75.75s-.75-.34-.75-.75v-1.07h-1.02c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h1.02V13c0-.41.34-.75.75-.75s.75.34.75.75v.98h1.03c.41 0 .75.34.75.75s-.34.75-.75.75"

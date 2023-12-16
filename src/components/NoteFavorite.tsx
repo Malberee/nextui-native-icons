@@ -1,14 +1,8 @@
-import * as React from "react";
-import Svg, { Path } from "react-native-svg";
-import type { SvgProps } from "react-native-svg";
+import * as React from 'react';
+import Svg, { Path } from 'react-native-svg';
+import type { SvgProps } from 'react-native-svg';
 const SvgNoteFavorite = (props: SvgProps) => (
-  <Svg
-    viewBox="0 0 24 24"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-  >
+  <Svg viewBox="0 0 24 24" width={24} height={24} fill="none" {...props}>
     <Path
       fill="currentColor"
       d="M7.75 3.5V2c0-.41-.34-.75-.75-.75s-.75.34-.75.75v1.56c.25-.03.48-.06.75-.06zM15.75 3.56V2c0-.41-.34-.75-.75-.75s-.75.34-.75.75v1.5H15c.27 0 .5.03.75.06M21.29 14.97a4.491 4.491 0 0 0-5.6.02c-1.04.82-1.69 2.1-1.69 3.51 0 .84.24 1.65.65 2.31.32.52.73.98 1.22 1.33.74.54 1.64.86 2.63.86 1.14 0 2.17-.42 2.96-1.12.35-.29.65-.65.89-1.06a4.49 4.49 0 0 0-1.06-5.85m-2.79 5.67c0-1.18-.96-2.14-2.14-2.14 1.18 0 2.14-.96 2.14-2.14 0 1.18.96 2.14 2.14 2.14-1.18 0-2.14.96-2.14 2.14"
