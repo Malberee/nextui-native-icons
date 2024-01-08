@@ -11,11 +11,11 @@ npm install nextui-native-icons
 ## Usage
 
 ```js
-import { multiply } from 'nextui-native-icons';
+import { IconName } from 'nextui-native-icons';
 
 // ...
 
-const result = await multiply(3, 7);
+return <IconName color="white" />;
 ```
 
 ## Contributing
