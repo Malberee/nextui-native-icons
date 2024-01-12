@@ -255,3 +255,4 @@ export { default as Wifi } from './Wifi';
 export { default as Wind2 } from './Wind2';
 export { default as Wind } from './Wind';
 export { default as Checkmark } from './Checkmark';
+export { default as CircularProgress } from './CircularProgress';
